@@ -42,6 +42,18 @@ $(document).ready(function () {
 		}).fadeIn(600, function () {
 			$as.animate({'left': '+=50px'}, 300, 'easeInBack');
 		});
+
+		if (radomShow) {
+			tempText =$as.data('fotoname');
+			$as.css('z-index', '10');
+			$am.css('z-index', '0');
+		} else {
+			tempText =$am.data('fotoname');
+			$as.css('z-index', '0');
+			$am.css('z-index', '10');
+		}
+		
+		$nameField.hide().attr('old_value',tempText).text(tempText).fadeIn(300);
 	},1200);
 
 	$('.author_pic').mouseover(function () {
@@ -52,14 +64,5 @@ $(document).ready(function () {
 		$nameField.text($nameField.data('old_value'));
 	});
 
-	if (radomShow) {
-		tempText =$as.data('fotoname');
-		$as.css('z-index', '10');
-		$am.css('z-index', '0');
-	} else {
-		tempText =$am.data('fotoname');
-		$as.css('z-index', '0');
-		$am.css('z-index', '10');
-	}
-	$nameField.hide().attr('old_value',tempText).text(tempText).fadeIn(300);
+
 });
