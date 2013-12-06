@@ -31,24 +31,26 @@ $(document).ready(function () {
 	if (showInfoRadom % 2 === 1) {
 		radomShow = true;
 	}
-
-	$am.data('fotoname','Samuel Shen').css({
-		'left': ((current_width / 2 - sm_width/2) + 80) + 'px'
-	}).fadeIn(600, function () {
+	window.setTimeout(function(){
+		$am.data('fotoname','Samuel Shen').css({
+			'left': ((current_width / 2 - sm_width/2) + 80) + 'px'
+		}).fadeIn(600, function () {
 			$am.animate({'left': '-=50px'}, 300, 'easeInBack');
 		});
-	$as.data('fotoname','Smily Liang').css({
-		'left': ((current_width / 2 - ss_width/2) - 80) + 'px'
-	}).fadeIn(600, function () {
+		$as.data('fotoname','Smily Liang').css({
+			'left': ((current_width / 2 - ss_width/2) - 80) + 'px'
+		}).fadeIn(600, function () {
 			$as.animate({'left': '+=50px'}, 300, 'easeInBack');
 		});
+	},1200);
+
 	$('.author_pic').mouseover(function () {
 		$(this).addClass('hover');
 		$nameField.text($(this).data('fotoname'));
 	}).mouseout(function () {
-			$(this).removeClass('hover');
-			$nameField.text($nameField.data('old_value'));
-		});
+		$(this).removeClass('hover');
+		$nameField.text($nameField.data('old_value'));
+	});
 
 	if (radomShow) {
 		tempText =$as.data('fotoname');
