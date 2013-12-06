@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809d5af8-88ae-43f7-83b2-bf2090a0019b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="samuel-smily.iws" />
@@ -30,14 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="64" selection-start="489" selection-end="489" vertical-scroll-proportion="-2.4444444">
+            <state line="37" column="0" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.76386404">
               <folding>
-                <marker date="1386345078000" expanded="true" signature="541:611" placeholder="..." />
-                <marker date="1386345078000" expanded="true" signature="565:597" placeholder="{...}" />
-                <marker date="1386345078000" expanded="true" signature="584:595" placeholder="{...}" />
+                <marker date="1386346735000" expanded="true" signature="541:611" placeholder="..." />
+                <marker date="1386346735000" expanded="true" signature="565:597" placeholder="{...}" />
+                <marker date="1386346735000" expanded="true" signature="584:595" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="8" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.725">
+            <state line="65" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#158#0" expanded="false" />
               </folding>
@@ -101,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/lib/reset.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -441,9 +442,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="44" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1386345078000" expanded="true" signature="541:611" placeholder="..." />
-            <marker date="1386345078000" expanded="true" signature="565:597" placeholder="{...}" />
-            <marker date="1386345078000" expanded="true" signature="584:595" placeholder="{...}" />
+            <marker date="1386346735000" expanded="true" signature="541:611" placeholder="..." />
+            <marker date="1386346735000" expanded="true" signature="565:597" placeholder="{...}" />
+            <marker date="1386346735000" expanded="true" signature="584:595" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -459,9 +460,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="44" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1386345078000" expanded="true" signature="541:611" placeholder="..." />
-            <marker date="1386345078000" expanded="true" signature="565:597" placeholder="{...}" />
-            <marker date="1386345078000" expanded="true" signature="584:595" placeholder="{...}" />
+            <marker date="1386346735000" expanded="true" signature="541:611" placeholder="..." />
+            <marker date="1386346735000" expanded="true" signature="565:597" placeholder="{...}" />
+            <marker date="1386346735000" expanded="true" signature="584:595" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -494,22 +495,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="489" selection-end="489" vertical-scroll-proportion="-2.4444444">
+        <state line="65" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1386345078000" expanded="true" signature="541:611" placeholder="..." />
-            <marker date="1386345078000" expanded="true" signature="565:597" placeholder="{...}" />
-            <marker date="1386345078000" expanded="true" signature="584:595" placeholder="{...}" />
+            <element signature="e#0#158#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="8" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.725">
+        <state line="37" column="0" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.76386404">
           <folding>
-            <element signature="e#0#158#0" expanded="false" />
+            <marker date="1386346735000" expanded="true" signature="541:611" placeholder="..." />
+            <marker date="1386346735000" expanded="true" signature="565:597" placeholder="{...}" />
+            <marker date="1386346735000" expanded="true" signature="584:595" placeholder="{...}" />
           </folding>
         </state>
       </provider>

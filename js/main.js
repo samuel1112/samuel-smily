@@ -52,7 +52,7 @@ $(document).ready(function () {
 			$as.css('z-index', '0');
 			$am.css('z-index', '10');
 		}
-		
+
 		$nameField.hide().attr('old_value',tempText).text(tempText).fadeIn(300);
 	},1200);
 
