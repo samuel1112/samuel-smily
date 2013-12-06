@@ -1,0 +1,46 @@
+#admin_selector {
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 20px;
+    position: relative;
+    height: 110px;
+}
+
+.author_pic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+
+#sm_pic, #ss_pic {
+    width: 80px;
+    border-radius: 50px;
+    border: 2px solid #777;
+    box-shadow: 0 2px 7px #777;
+}
+
+#name_field {
+    width: 100%;
+    text-align: center;
+    font-size: 2.9em;
+    text-shadow: 0 1px 3px #888;
+}
+
+.fn-clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.hover {
+    -webkit-transform: scaleX(1.2) scaleY(1.2);
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 200;
+    -webkit-transition-delay: 0;
+    -webkit-transition-timing-function: ease-in-out;
+    z-index: 20 !important;
+}

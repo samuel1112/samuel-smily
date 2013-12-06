@@ -33,8 +33,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 	margin:0;padding:0;
 }
 body,button,input,select,textarea{
-	font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
-	font-size: 12px;
+    font:12px/1.5 'Dosis',arial,"Hiragino Sans GB",\5b8b\4f53;
 	word-wrap: break-word;
 	color: #333333;
 }
