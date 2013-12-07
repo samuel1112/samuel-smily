@@ -56,7 +56,7 @@ $(document).ready(function () {
 			$am.css('z-index', '10');
 		}
 
-		$nameField.hide().attr('old_value',tempText).text(tempText).fadeIn(300);
+		$nameField.hide().data('old_value',tempText).text(tempText).fadeIn(300);
 
 		$('#info').empty();
 		var a_html = infoRender(objName);
