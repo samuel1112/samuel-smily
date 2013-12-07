@@ -12,8 +12,8 @@ jQuery.extend(jQuery.easing,{
 		return c * (t /= d) * t * ((s + 1) * t - s) + b;
 	}
 });
-
 console.log('看源码了？我们可以成为朋友～\n\t\t互相学习交流可以向我们发邮件～\n或者加微信：Samuel_1112\n');
+
 
 $(document).ready(function () {
 	// ---
@@ -21,13 +21,20 @@ $(document).ready(function () {
 		$am = $('#admin_sm'),
 		$as = $('#admin_ss'),
 		$nameField = $('#name_field'),
+		$saying = $('#saying'),
 		sm_width = $am.width(),
 		ss_width = $as.width(),
 		showInfoRadom = parseInt(Math.random() * 10 + 1),
 		radomShow = false,
 		tempText = '',
-		objName = '';
+		objName = '',
+		sayingBigList = ['Think different','昂首阔步 碧海蓝天','All those moments will be lost in time, like tears.. in rain','Because the people who are crazy enough to think they can change the world are the ones who do','Stay hungry,stay foolish'],
+		currentTimeSaying = '';
 
+
+	// building saying
+	currentTimeSaying = sayingBigList[Math.floor(Math.random()*sayingBigList.length+1)-1];
+	$saying.text(' '+currentTimeSaying+' ').css({'margin-top':'10px'});
 
 	if (showInfoRadom % 2 === 1) {
 		radomShow = true;
@@ -55,7 +62,9 @@ $(document).ready(function () {
 			$as.css('z-index', '0');
 			$am.css('z-index', '10');
 		}
-
+		$saying.animate({
+			'marginTop':0
+		},300).fadeIn(400);
 		$nameField.hide().data('old_value',tempText).text(tempText).fadeIn(300);
 
 		$('#info').empty();
