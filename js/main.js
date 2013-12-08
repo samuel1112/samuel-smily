@@ -21,20 +21,21 @@ $(document).ready(function () {
 		$am = $('#admin_sm'),
 		$as = $('#admin_ss'),
 		$nameField = $('#name_field'),
-		$saying = $('#saying'),
+		$saying = $('.saying'),
 		sm_width = $am.width(),
 		ss_width = $as.width(),
 		showInfoRadom = parseInt(Math.random() * 10 + 1),
 		radomShow = false,
 		tempText = '',
 		objName = '',
-		sayingBigList = ['Think different','昂首阔步 碧海蓝天','All those moments will be lost in time, like tears.. in rain','Because the people who are crazy enough to think they can change the world are the ones who do','Stay hungry,stay foolish'],
-		currentTimeSaying = '';
+		sayingBigList = ['Think different','昂首阔步 碧海蓝天','All those moments will be lost in time, like tears.. in rain','Because the people who are crazy enough to think they can change the world are the ones who do','Stay hungry,stay foolish'];
 
 
 	// building saying
-	currentTimeSaying = sayingBigList[Math.floor(Math.random()*sayingBigList.length+1)-1];
-	$saying.text(' '+currentTimeSaying+' ').css({'margin-top':'10px'});
+
+	$saying.each(function(){
+		$(this).text(' '+sayingBigList[Math.floor(Math.random()*sayingBigList.length+1)-1]+' ').css({'margin-top':'10px'});
+	});
 
 	if (showInfoRadom % 2 === 1) {
 		radomShow = true;
